@@ -1,5 +1,5 @@
 # Personalised aesthetics assessment in photography using deep learning and residual adapters
-This repository contains the Jupyter notebooks used as supporting material for my msc thesis about personalised aesthetic assessment using residual adapters. **The pdf of this thesis will be uploaded soon**
+This repository contains the Jupyter notebooks used as supporting material for my msc thesis about personalised aesthetic assessment using residual adapters. The thesis was submitted in partial fulfillment of the requirements for the Msc in Artificial Intelligence at the University of Edinburgh in August 2018. **The pdf of this thesis will be uploaded soon**
 
 ## Description
 
