@@ -1,5 +1,5 @@
 # Personalised aesthetics assessment in photography using deep learning and residual adapters
-This repository contains the Jupyter notebooks used as supporting material for my msc thesis about personalised aesthetic assessment using residual adapters. The thesis was submitted in partial fulfillment of the requirements for the Msc in Artificial Intelligence at the University of Edinburgh in August 2018. **The pdf of this thesis will be uploaded soon**
+This repository contains the Jupyter notebooks used as supporting material for my msc thesis about personalised aesthetic assessment using residual adapters. The thesis was submitted in partial fulfillment of the requirements for the Msc in Artificial Intelligence at the University of Edinburgh in August 2018. 
 
 ## Description
 
@@ -29,6 +29,7 @@ The dataset must be stored in a folder called "Images", which should be placed i
  * *FineTuneEachWorkerk100fullnetwork.ipynb*: Notebook used for the k=100 images/user setting (fine-tuning every layer of the network)
  * *Adapters.ipynb*:  Notebook used for the k=100 images/user setting (adding the adapters and training them and the bottleneck of the network)
  * *Saliency maps and picture enhancement.ipynb*: Code used for the personalised picture enhancement using gradient ascent and the saliency maps.
+ * *Dissertation.pdf*: Report containing the results of the experiments and other information. The thesis was submitted in partial fulfillment of the requirements for the Msc in Artificial Intelligence at the University of Edinburgh in August 2018. 
  
  
 ## Authors
