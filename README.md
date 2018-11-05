@@ -1,6 +1,8 @@
 # Personalised aesthetics assessment in photography using deep learning and residual adapters
 This repository contains the Jupyter notebooks used as supporting material for my msc thesis about personalised aesthetic assessment using residual adapters. The thesis was submitted in partial fulfillment of the requirements for the Msc in Artificial Intelligence at the University of Edinburgh in August 2018. 
 
+![Example of my picture enhancement method](/adversarial_cub.png)
+
 ## Description
 
 The notebooks in this repository were used to perform the experiments reported in my masters thesis on *Personalised aesthetics assessment in photography using deep learning*. This thesis had the aim of constructing deep learning models that could embed personalised aesthetic preferences on photography in deep learning models. To do so, we used **Residual adapters**, which have shown success in multi-domain deep neural networks. We argue that those adapters can learn the preferences of individual users over aesthetics in photography, regardless on what level of abstraction those preferences can represented in. They were presented in [this paper](http://homepages.inf.ed.ac.uk/hbilen/assets/pdf/Rebuffi17.pdf) and their optimal configuration was reported [here](http://homepages.inf.ed.ac.uk/hbilen/assets/pdf/Rebuffi18.pdf). To evaluate the performance of said adapters, we used the *Flicker-AES* dataset, and a similar train/test division as was used in [this report](http://users.eecs.northwestern.edu/~xsh835/assets/iccv2017_personalizedaesthetics.pdf), to make results comparable. 
@@ -29,6 +31,7 @@ The dataset must be stored in a folder called "Images", which should be placed i
  * *FineTuneEachWorkerk100fullnetwork.ipynb*: Notebook used for the k=100 images/user setting (fine-tuning every layer of the network)
  * *Adapters.ipynb*:  Notebook used for the k=100 images/user setting (adding the adapters and training them and the bottleneck of the network)
  * *Saliency maps and picture enhancement.ipynb*: Code used for the personalised picture enhancement using gradient ascent and the saliency maps.
+ * *Saliency maps and picture enhancement.ipynb-V2*: Code used for the personalised picture enhancement using gradient ascent and the saliency maps. This is an improved method of the previous notebook, now using the whole magnitude of the gradient to perform the image enhancement, and accepts networks with residual adapters as input.
  * *Dissertation.pdf*: Report containing the results of the experiments and other information. The thesis was submitted in partial fulfillment of the requirements for the Msc in Artificial Intelligence at the University of Edinburgh in August 2018. 
  
  
