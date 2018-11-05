@@ -35,6 +35,13 @@ The dataset must be stored in a folder called "Images", which should be placed i
  * *Dissertation.pdf*: Report containing the results of the experiments and other information. The thesis was submitted in partial fulfillment of the requirements for the Msc in Artificial Intelligence at the University of Edinburgh in August 2018. 
  
  
+## More examples of the method
+![Steph Curry](/adversarial_curry.png)
+![Lenna](/adversarial_lenna-.png)
+![Rosalia](/adversarial_rosalia.png)
+
+
+ 
 ## Authors
 
 * **Carlos Rodríguez - Pardo** - [crp94](https://github.com/crp94)
