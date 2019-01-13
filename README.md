@@ -22,6 +22,14 @@ The notebooks require the installation of Python >= 3.5, Jupyter, PyTorch 1.0, C
 
 The dataset must be stored in a folder called "Images", which should be placed in the same directory as the notebooks. The images can be downloaded from the FLICKER-AES dataset, which can be found in [this repository](https://github.com/alanspike/personalizedImageAesthetics).
 
+## Enhance your own picture
+To enhance your own picture, save the network to a known location and execute the following line. You can control the intensity of the enhancement using --epsilon (we recommend values from 0.3 to 0.5 for best results). You need to have torch, PIL and numpy installed in your computer. Thanks to adaptive pooling, the network can enhance pictures of any size using the same neural network. 
+
+```bash
+$ python enhancepicture.py --epsilon 0.4 --network PATH_TO_THE_PRETRAINED_NETWORK --inputimage PATH_TO_YOUR_INPUT_IMAGE --outputimage DESIRED_PATH_FOR_THE_ENHANCED_PICTURE 
+```
+
+
 ## File descriptions
 
  * Every file ending in *.csv*: Datasets used to train and test the models
@@ -32,7 +40,8 @@ The dataset must be stored in a folder called "Images", which should be placed i
  * *Adapters.ipynb*:  Notebook used for the k=100 images/user setting (adding the adapters and training them and the bottleneck of the network)
  * *Saliency maps and picture enhancement.ipynb*: Code used for the personalised picture enhancement using gradient ascent and the saliency maps.
  * *Saliency maps and picture enhancement.ipynb-V2*: Code used for the personalised picture enhancement using gradient ascent and the saliency maps. This is an improved method of the previous notebook, now using the whole magnitude of the gradient to perform the image enhancement, and accepts networks with residual adapters as input.
- * *Dissertation.pdf*: Report containing the results of the experiments and other information. The thesis was submitted in partial fulfillment of the requirements for the Msc in Artificial Intelligence at the University of Edinburgh in August 2018. 
+ * *Dissertation.pdf*: Report containing the results of the experiments and other information. The thesis was submitted in partial fulfillment of the requirements for the Msc in Artificial Intelligence at the University of Edinburgh in August 2018. Selected as outstanding dissertation by the university.
+ * *enhancepicture.py*: Script that automatically enhances pictures of any size. 
  
  
 ## More examples of the method
