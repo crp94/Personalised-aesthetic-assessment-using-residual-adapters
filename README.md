@@ -28,11 +28,14 @@ To enhance your own picture, save the network to a known location and execute th
 ```bash
 $ python enhancepicture.py --epsilon 0.4 --network PATH_TO_THE_PRETRAINED_NETWORK --inputimage PATH_TO_YOUR_INPUT_IMAGE --outputimage DESIRED_PATH_FOR_THE_ENHANCED_PICTURE 
 ```
-Example of the result of the enhancement algorithm. I do not own the rights for the picture. 
+Example of the result of the enhancement algorithm. I do not own the rights for the first picture. I took the second and third pictures  in the scottish highlands using a OnePlus 2 with HDR enabled. I also took the fourth picture in Madrid's Gran Vía using a Moto G6 Plus. 
 
 Before enhancement         |  After enhancement
 :-------------------------:|:-------------------------:
 ![](gettyimages-493656728.jpg)  |  ![](output.jpg)
+![](IMG_20180818_131519.jpg)  |  ![](out1.jpg)
+![](IMG_20180818_151222.jpg)  |  ![](out3.jpg)
+![](IMG_d19xs3.jpg)  |  ![](out9.jpg)
 ## File descriptions
 
  * Every file ending in *.csv*: Datasets used to train and test the models
