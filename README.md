@@ -48,15 +48,7 @@ Before enhancement         |  After enhancement
  * *Saliency maps and picture enhancement.ipynb-V2*: Code used for the personalised picture enhancement using gradient ascent and the saliency maps. This is an improved method of the previous notebook, now using the whole magnitude of the gradient to perform the image enhancement, and accepts networks with residual adapters as input.
  * *Dissertation.pdf*: Report containing the results of the experiments and other information. The thesis was submitted in partial fulfillment of the requirements for the Msc in Artificial Intelligence at the University of Edinburgh in August 2018. Selected as outstanding dissertation by the university.
  * *enhancepicture.py*: Script that automatically enhances pictures of any size. 
- 
- 
-## More examples of the method
-![Steph Curry](/adversarial_curry.png)
-![Lenna](/adversarial_lenna-.png)
-![Rosalia](/adversarial_rosalia.png)
-
-
- 
+  
 ## Authors
 
 * **Carlos Rodríguez - Pardo** - [crp94](https://github.com/crp94)
