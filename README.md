@@ -1,3 +1,7 @@
+[![DOI](https://zenodo.org/badge/148035757.svg)](https://zenodo.org/badge/latestdoi/148035757)
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+
+
 # Personalised aesthetics assessment in photography using deep learning and residual adapters
 This repository contains the Jupyter notebooks used as supporting material for my msc thesis about personalised aesthetic assessment using residual adapters. The thesis was submitted in partial fulfillment of the requirements for the Msc in Artificial Intelligence at the University of Edinburgh in August 2018. 
 
