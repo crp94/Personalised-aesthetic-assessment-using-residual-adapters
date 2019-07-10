@@ -3,7 +3,7 @@
 
 
 # Personalised aesthetics assessment in photography using deep learning and residual adapters
-This repository contains the Jupyter notebooks used as supporting material for my msc thesis about personalised aesthetic assessment using residual adapters. The thesis was submitted in partial fulfillment of the requirements for the Msc in Artificial Intelligence at the University of Edinburgh in August 2018. 
+This repository contains the Jupyter notebooks used as supporting material for my msc thesis about personalised aesthetic assessment using residual adapters. The thesis was submitted in partial fulfillment of the requirements for the Msc in Artificial Intelligence at the University of Edinburgh in August 2018. A shorter version of this thesis was published as a preprint in [Arxiv](https://arxiv.org/abs/1907.03802) and presented as short talk in the [9th Iberian Conference on Pattern Recognition and Image Analysis](http://www.ibpria.org/2019/). 
 
 ![Example of my picture enhancement method](/adversarial_cub.png)
 
@@ -57,7 +57,7 @@ Before enhancement         |  After enhancement
 
 * **Carlos Rodríguez - Pardo** - [crp94](https://github.com/crp94)
 
-If you find this work useful, please cite me and this repository.
+If you find this work useful, please cite me and the paper in [Arxiv](https://arxiv.org/abs/1907.03802).
 
 ## License
 
