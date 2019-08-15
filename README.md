@@ -25,11 +25,17 @@ The notebooks require the installation of Python >= 3.5, Jupyter, PyTorch 1.0, C
 The dataset must be stored in a folder called "Images", which should be placed in the same directory as the notebooks. The images can be downloaded from the FLICKER-AES dataset, which can be found in [this repository](https://github.com/alanspike/personalizedImageAesthetics).
 
 ## Enhance your own picture
-To enhance your own picture, save the network to a known location and execute the following line. You can control the intensity of the enhancement using --epsilon (we recommend values from 0.3 to 0.5 for best results). You need to have torch, PIL and numpy installed in your computer. Thanks to adaptive pooling, the network can enhance pictures of any size using the same neural network. 
+To enhance your own picture, save the network to a known location and execute the following line. You can control the intensity of the enhancement using --epsilon (we recommend values from 0.2 to 0.4 for best results). You need to have torch, PIL and numpy installed in your computer. Thanks to adaptive pooling, the network can enhance pictures of any size using the same neural network. 
 
 ```bash
-$ python enhancepicture.py --epsilon 0.4 --network PATH_TO_THE_PRETRAINED_NETWORK --inputimage PATH_TO_YOUR_INPUT_IMAGE --outputimage DESIRED_PATH_FOR_THE_ENHANCED_PICTURE 
+$ python enhancepicture.py --epsilon 0.3 --network PATH_TO_THE_PRETRAINED_NETWORK --inputimage PATH_TO_YOUR_INPUT_IMAGE --outputimage DESIRED_PATH_FOR_THE_ENHANCED_PICTURE 
 ```
+
+You can also enhance a list of pictures that are contained in the same directory. To do so, use the following script. The value of epsilon will be constant for all the images in the dictory. The enhanced images will be stored in the original directory with a prefix of "enhanced_". 
+
+```bash
+$ python enhancedirectory.py --epsilon 0.3 --network PATH_TO_THE_PRETRAINED_NETWORK --inputdirectory PATH_TO_YOUR_INPUT_DIRECTORY
+``` 
 Example of the result of the enhancement algorithm. I do not own the rights for the first picture. I took the second and third pictures  in the scottish highlands using a OnePlus 2 with HDR enabled. I also took the fourth picture in Madrid's Gran Vía using a Moto G6 Plus. 
 
 Before enhancement         |  After enhancement
@@ -49,7 +55,9 @@ Before enhancement         |  After enhancement
  * *Saliency maps and picture enhancement.ipynb*: Code used for the personalised picture enhancement using gradient ascent and the saliency maps.
  * *Saliency maps and picture enhancement.ipynb-V2*: Code used for the personalised picture enhancement using gradient ascent and the saliency maps. This is an improved method of the previous notebook, now using the whole magnitude of the gradient to perform the image enhancement, and accepts networks with residual adapters as input.
  * *Dissertation.pdf*: Report containing the results of the experiments and other information. The thesis was submitted in partial fulfillment of the requirements for the Msc in Artificial Intelligence at the University of Edinburgh in August 2018. Selected as outstanding dissertation by the university.
- * *enhancepicture.py*: Script that automatically enhances pictures of any size. 
+ * *enhancepicture.py*: Script that automatically enhances one picture of any size. 
+ * *enhancedirectory.py*: Script that automatically enhances every picture in a given directory.
+
   
 ## Authors
 
